@@ -1,5 +1,5 @@
 module.exports = {
-  title: `younghwanjoe.com`,
+  title: `YoungHwan's Blog`,
   description: `개발자 조영환입니다`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://younghwanjoe.netlify.app`,
