@@ -1,10 +1,12 @@
 {
-  "name": "zoomkoding.com",
+  "name": "younghwanjoe.netlify.app",
   "private": false,
   "description": "A neat blog theme for developers",
   "version": "2.0.0",
-  "author": "zoomkoding <zoomkoding@gmail.com>",
+  "author": "younghwanjoe <hhgman2@gmail.com>",
   "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.1.0",
     "@mui/material": "^5.1.0",
     "gatsby": "^3.12.1",
@@ -58,9 +60,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog"
+    "url": "https://github.com/younghwanjoe/gatsby-blog"
   },
   "bugs": {
-    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog/issues"
+    "url": "https://github.com/younghwanjoe/gatsby-blog/issues"
   }
 }
