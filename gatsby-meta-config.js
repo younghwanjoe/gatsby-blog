@@ -6,7 +6,7 @@ module.exports = {
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: `younghwanjoe/blog`, 
+      repo: `younghwanjoe/gatsby-blog`, 
     },
   },
   ga: '0', // Google Analytics Tracking ID
