@@ -20,7 +20,7 @@ function PostTabs({ tabIndex, onChange, tabs, posts, showMoreButton }) {
           scrollButtons="auto"
         >
           {tabs.map((title, index) => (
-            <Tab label={`${title}(${posts.length})`} key={index} />
+            <Tab label={title} key={index} />
           ))}
         </Tabs>
       </div>
