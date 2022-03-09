@@ -22,9 +22,14 @@
     margin-bottom: 5px;
 
     .category {
-      margin-right: 4px;
       font-weight: 600;
       color: var(--primary-text-color);
+      background-color: var(--chip-background-color);
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 500;
+      margin-right: 5px;
+      padding: 5px 7px 5px 7px;
 
       &:hover {
         text-decoration: underline;
