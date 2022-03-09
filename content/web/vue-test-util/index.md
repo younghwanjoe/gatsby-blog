@@ -7,6 +7,8 @@ tags: testing
 categories: web
 ---
 
+## 1. 설치 및 설정
+
 - `vue add unit-jest` 를 사용해서 의존 모듈 설치
   ```tsx
   vue add unit-jest
@@ -193,7 +195,7 @@ categories: web
   });
   ```
 
-# 이슈
+## 2. 이슈
 
 - `[vue-test-utils]: window is undefined, vue-test-utils needs to be run in a browser environment.`
   jest.config.js에서 testEnvironment: 'jsdom' 옵션을 추가해준다
@@ -322,12 +324,16 @@ categories: web
     },
   ```
 
-# 테스트 토입해본 소감
+## 3. 도입 소감
 
 - 한 함수에 대해 인자에 여러 케이스를 줘서 테스트를 하면 에러처리에 대해 더 구체적이고 정확하게 가능함
 - 예를 들어 로컬스토리지의 AES엔크립트된 토큰을 `decrypt` -> jwt를 다시 `decode`하는거→ 그걸로 세션확인하는 복잡한 작업을 부분부분마다 체크할수있어서 안심이된다
 - 확실히 함수를 기능단위로 쪼개게 된다 그래야 테스트가 편하니까, 작게 쪼개야 작은 단위와 로직에 대한 테스트가 쉬워지고 결과적으로 모듈화가 된다
 
-# 더 해볼것
+## 4. 더 해볼것
 
 - 제대로된 CI/CD를 구축하기 위해 테스트 코드를 `git action`에 연동후 테스트 통과되어야 머지할수있도록 설정
+
+```toc
+
+```
